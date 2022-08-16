@@ -1,3 +1,4 @@
 :root {
     background-image: url(/images/pattern-background-mobile.svg);
+    background-size: contain;
 }
