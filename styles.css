@@ -59,6 +59,7 @@
 .description {
     text-align: center;
     padding-bottom: 15px;
+    color: var(--desaturate-blue);
 }
 
 .pricing-container {
@@ -69,6 +70,10 @@
     gap: 35px;
     background-color: var(--very-pale-blue);
     border-radius: 15px;
+}
+
+.pricings {
+    color: var(--desaturate-blue);
 }
 
 .plan-container {
