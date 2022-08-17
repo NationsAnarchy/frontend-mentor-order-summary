@@ -46,7 +46,7 @@ main {
 }
 
 .content-container {
-    margin: 1em;
+    margin: 1.25em;
 }
 
 
@@ -65,7 +65,7 @@ main {
 .pricing-container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
     background-color: var(--very-pale-blue);
     border-radius: 15px;
@@ -135,4 +135,10 @@ main {
 .payment-button:hover {
     background-color: var(--dark-blue);
     cursor: pointer;
+}
+
+.pricing-component {
+    list-style: none;
+    padding: 0;
+    margin-left: -45px;
 }
