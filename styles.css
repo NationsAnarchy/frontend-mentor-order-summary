@@ -109,8 +109,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .cancel-order {
@@ -124,12 +124,13 @@ main {
 
 .payment-button {
     width: 100%;
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
     background-color: var(--bright-blue);
     color: white;
     border: none;
     border-radius: 15px;
     font-weight: 700;
+    font-size: 15px;
 }
 
 .payment-button:hover {
